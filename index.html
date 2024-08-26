@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Typewriter Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Noam Guterman</h1>
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="https://static.wixstatic.com/media/a635cc_ff921bf2b9aa4966a3c1b1cdb67391c9~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/PROFCIRC.png"
+           class="profile"
+           alt="profile_picture" />
+      <p>Aspiring developer.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skill-item">
+        <label for="html">HTML</label>
+        <progress id="html" max="100" value="80"></progress>
+      </div>
+      <div class="skill-item">
+        <label for="css">CSS</label>
+        <progress id="css" max="100" value="60"></progress>
+      </div>
+      <div class="skill-item">
+        <label for="javascript">JS</label>
+        <progress id="javascript" max="100" value="40"></progress>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <details>
+          <summary>Caesar Cipher</summary>
+          <p>A small project I built for a friend to help exchange secret messages.</p>
+          <a href="https://mimo.org" target="_blank">→ Link to project</a>
+        </details>
+      </div>
+    </section>
+  </body>
+</html>
